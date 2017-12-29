@@ -19,7 +19,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'trello-checker = commit_msg.trello_checker.py:main',
+            'trello-checker = commit_msg.trello_checker:main',
         ],
     },
 )
