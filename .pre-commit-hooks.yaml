@@ -1,0 +1,4 @@
+-   id: trello-checker
+    name: Check trello link
+    entry: trello-checker
+    language: python
