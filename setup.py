@@ -15,7 +15,7 @@ setup(
         'License :: OSI Approved :: MIT License'
     ],
 
-    packages=find_packages(include=['commit_msg']),
+    packages=find_packages(exclude=('tests*', 'testing*')),
     install_requires=[],
     entry_points={
         'console_scripts': [
